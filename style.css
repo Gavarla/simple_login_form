@@ -1,0 +1,60 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(12, 12, 109, 0.829);
+}
+.container{ 
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+h1,p{
+    text-align: center;
+    margin-top:0;
+    padding-top: 0;
+}
+.detailes{
+    margin: 10px;
+}
+ .container .detailes input{
+    width: 250px;
+    height: 20px;
+    
+
+}
+.container .detailes input:focus,
+.container .detailes input:valid{
+    outline:0;
+}
+.container .detailes label{
+    font-size:18px;
+    color:black;
+}
+.btn{
+    display: block;
+    background-color:green;
+    width:93%;
+    padding:5px;
+    margin:20px 0 10px 10px ;
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+}
+.btn:active{
+    transform:scale(0.98);
+
+}
+.top-container h6{
+    margin-top:10px;
+    text-align: center;
+    color: #fff;
+    
+}
+a{
+    text-decoration: none;
+    color: aqua;
+    padding-left: 10px;
+    font-size: 16px;
+}
